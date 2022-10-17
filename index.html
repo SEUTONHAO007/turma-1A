@@ -1,29 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso em Vídeo</title>
-    <link rel="stylesheet" href="estilos/style.css">
-</head>
-<body>
+<html>
+  <head>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Texto na aba do navegador</title>
+  </head>
+
+  <body>
+    <h1> Título H1 </h1 >
+
+    <figure>
+      <img src="../projeto-html-css/imagens/logo.gif" alt="logo com os dizeres: Bicyclo e shop no interior de um círculo">
+      <figcaption>Logomarca da Bicyclo</figcaption>
+    </figure>
+
+    <img src="">
+
+    <a href="https://www.google.com.br">Texto que descreve o link </a>
+
     <main>
-        <header>
-            <h1>Cursos Grátis</h1>
-            <img src="imagens/curso-em-video-cor.png" alt="Curso em Vídeo">
-        </header>
-        <article>
-            <h2>Curso de HTML5 com CSS3</h2>
-            <img class="lado" src="imagens/curso-html-css.png" alt="Curso HTML">
-            <p>A <abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem de marcação para a criação de sites. Atualmente na versão 5, ela usa a semântica dos elementos para criar o conteúdo de uma página Web. Com as <abbr title="Cascading Style Sheets">CSS</abbr>, criamos as configurações visuais que um site vai ter.</p>
-            <p><a href="curso-html.html">Acesse o curso de HTML5</a></p>
-        </article>
-        <article>
-            <h2>Curso de JavaScript</h2>
-            <img class="lado" src="imagens/curso-javascript.png" alt="Curso JS">
-            <p><abbr title="JavaScript">JavaScript</abbr> é uma linguagem de script criada para aumentar a interatividade entre um site e seus visitantes. Os códigos em JS são executados dentro do navegador e dão acesso aos elementos HTML por meio do <abbr title="Document Object Model">DOM</abbr>.</p>
-            <p><a href="curso-js.html">Acesse o curso de JavaScript</a></p>
-        </article>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+        <form>
+          <input type="search" name="q" placeholder="Search query">
+          <input type="submit" value="Go!">
+        </form>
+        <button>Change user</button>
+      </nav>
+      <hr>
+      <aside>
+        <h2>Related</h2>
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
+        </ul>
+      </aside>
+
+      <p> O ciclismo é um dos esportes mais praticados no Brasil atualmente, principalmente por sua versatilidade, já que essa atividade é indicada para todo tipo de pessoa que tenha condições físicas e motoras para pedalar. </P>
+
+      <p> No Empório do Ciclista, somos uma comunidade global de: </p>
+        <ul> <! - alterado para a lista no tutorial >
+          <li> Ciclismo de entrada </li >
+          <li> Mountain bike </li >
+          <li> <abbr title="Bicycle motocross">BMX</abbr> </li >
+        </ul >
+
+      <P> Conhela o <a  href = "http://www.blog.bikeregistrada.com.br/ "> Blog Bike registrada </a> para aprender ainda mais sobre os o esporte mais praticado no Brasil. </p>
+
     </main>
-</body>
+
+    <p> A Fórmula quimica da <span class="editor-note">cafeína</span> é C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub></p>
+
+    <script src="scripts/main.js"></script>
+
+    <hr>
+
+    <footer>
+      <div class="rodape">
+        <address>
+          <div class="rodapecor"><p>Page written by <a href="https://github.com/leopesi">Leonardo Pereira</a>.</p></div>
+        </address>
+        <p>All rights reversed.</p>
+      </div>
+    </footer>
+
+  </body>
+
 </html>
